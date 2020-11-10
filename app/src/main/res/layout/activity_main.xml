@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <GridView
+        android:id="@+id/photodisplay"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:numColumns="3"
+        android:layout_above="@id/synchroniseByStream"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/synchroniseByFile"
+        android:text="synchronise by file"
+        android:onClick="synchroniseFile"
+        android:layout_above="@id/synchroniseByStream"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/synchroniseByStream"
+        android:text="synchronise by stream"
+        android:onClick="synchroniseStream"
+        android:layout_above="@id/camera"/>
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/camera"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

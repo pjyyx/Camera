@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "452413653211",
+    "firebase_url": "https://assign2-c6702.firebaseio.com",
+    "project_id": "assign2-c6702",
+    "storage_bucket": "assign2-c6702.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452413653211:android:c3d1c52ba4ec1e37afccfe",
+        "android_client_info": {
+          "package_name": "comp5216.sydney.edu.au.camera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452413653211-i2md2nrdqvhpovm2nthu1vrlvh1qfc3t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdmBVz-w_BKU43ihx1piEvq1vBHAOHWkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452413653211-i2md2nrdqvhpovm2nthu1vrlvh1qfc3t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
